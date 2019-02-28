@@ -5,6 +5,7 @@ public class MyStack {
 	private String[] buffer;
 
 	public MyStack( int size ) {
+		size = 1;
 	}
 	
 	public void push(String item) {
@@ -15,7 +16,7 @@ public class MyStack {
 	}
 
 	public boolean isEmpty() {
-		return false;
+		return true;
 	}
 	
 	public int size() {
